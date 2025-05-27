@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    background-color: rgb(249, 201, 231);
+    justify-content: center;
+    align-items: center;
+}
+
+.div-inicio-sesion {
+    display:flex;
+    width: 60vh;
+    height:80vh;
+    gap: 20px;
+    background-color: #434343;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-iniSes {
+    display: flex;
+    color: aliceblue;
+    position:relative;
+    top:-100px;
+    font-size: xx-large;
+}
+
+input {
+    display: flex;
+    height: 75px;
+    width: 300px;
+    border-radius: 10%;
+    background-color:rgb(252, 254, 236);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+button {
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

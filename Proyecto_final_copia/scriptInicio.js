@@ -1,0 +1,3 @@
+function lmao() {
+    alert("LMAO");
+}

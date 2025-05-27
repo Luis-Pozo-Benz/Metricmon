@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #434343;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    color: rgb(255, 255, 130);
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cerrar-sesion:hover {
+    cursor: pointer;
+}
+
+.logo {
+    min-height: 130px;
+}
+
+/*Estilo de enlaces*/
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 130);
+}
+
+body {
+    background-color: rgb(255, 255, 130);
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Estilo de la lista de pokemons*/
+.section-lista-pokemon {
+    display: flex;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.div-lista-pokemon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 20px;
+    font-family: cursive;
+}
+
+p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: max-content;
+}
+/*Estilo de la lista de entrenadores*/
+
+.lista-entrenadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px
+}
+
+button {
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

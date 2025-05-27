@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesIniSes.css">
+    <script src="scriptInicioSes.js" defer></script>
+</head>
+<body>
+    <div class="div-inicio-sesion">
+        <p class="p-iniSes">INICIO DE SESIÓN</p>
+        <form onsubmit="iniciarSesion()">
+            <input type="text" id="entrenador" name="entrenador" placeholder="Entrenador" required>
+            <br>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+        </form>
+        <button onclick="enviarInicioSesion()">Iniciar sesión</button>
+
+    </div>
+</body>
+</html>
